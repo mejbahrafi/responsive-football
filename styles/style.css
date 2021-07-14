@@ -110,4 +110,32 @@ font-size: 56px;
         transform: translate(70px);
     }
 
-    
+    /* footer style */
+
+    .footer-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 70px;
+    }
+    .icon a{
+        text-decoration: none;
+    }
+    .icon .fab{
+        margin-right: 14px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+     }
+    .icon .fab:nth-child(4){
+        margin-right: 0px;
+    }
+    .footer-thumbnail img{
+        width: 470px;
+    }
+    .text{
+        font-size: 18px;
+        margin-top: 17px;
+       
+    }
