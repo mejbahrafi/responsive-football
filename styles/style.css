@@ -1,7 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
+     margin: 0;
+    padding: 0; 
 }
 
 /* Header Section style */
@@ -18,7 +18,11 @@ body{
 color: white;
 font-weight: 700;
 font-size: 56px;
+transition: transform 3s;
 
+}
+.header-section :hover h1{
+    transform: translate(30px);
 }
 
 .half-width .button{ 
@@ -38,7 +42,11 @@ font-size: 56px;
     width: 556px;
     margin-left: 102px;
     padding-bottom: 56px;
+     transition: transform 2s; 
     }
+     .half-width:hover img{
+        transform:translate(50px);
+    } 
 
     /* main section style */
     main{
